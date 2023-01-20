@@ -1,0 +1,33 @@
+.product-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.product-name {
+  margin-top: 10px;
+  font-size: 36px;
+  text-align: center;
+}
+
+.product-description {
+  margin-top: 10px;
+  text-align: center;
+}
+
+.product-price {
+  margin-top: 10px;
+  font-size: 24px;
+  text-align: center;
+  color: #ff0000;
+}
+
+.add-to-cart {
+  margin-top: 10px;
+  padding: 10px 20px;
+  background-color: #00ff00;
+  color: #ffffff;
+  border: none;
+  font-size: 18px;
+  cursor: pointer;
+}

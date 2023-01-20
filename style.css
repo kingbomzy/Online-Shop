@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Righteous&display=swap');
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+html,body {
+	width: 100%;
+	height: 10%;
+}
+
+header {
+	background-image: linear-gradient(rgba(42,58,74,0.95),rgba(42,58,74,0.95)), url(picture.jpg);
+	height: 100vh;
+	background-size: contain;
+	background-position: right;
+}
+
+#main {
+	background: transparent;
+	width: 100%;
+	height: 50px;
+}
+
+#main .logo {
+	float: left;
+}
+
+.logo {
+	background: url(logo.png);
+	width: 100px;
+	height: 100px;
+	background-size: cover;
+	background-position: center;
+	margin-top: px;
+	margin-right: 1px;
+}
+
+#main nav ul {
+	float: right;
+	margin-top: 20px;
+	margin-right: 20px;
+}
+
+#main nav ul li {
+	list-style-type: none;
+	display: inline-block;
+	margin: 0 8px;
+	line-height: 20px;
+}
+
+#main nav ul li a {
+	text-decoration: none;
+	color: #fff;
+	font-size: 15px;
+	padding: 6px 13px;
+	transition: 0.4s all ease-out;
+	font-family: 'Righteous', cursive;
+}
+
+#main nav ul li a.active
+#main nav ul li a:hover {
+	background: #14c8a2;
+	color: #fff;
+	transition: 0.4s all ease-out;
+}
+
+.text {
+	transform: translate(-50%,-50%);
+	position: absolute;
+	top: 49%;
+	left: 50%;
+	text-align: center;
+}
+
+.text h1 {
+	color: #fff;
+	font-size: 100px;
+	letter-spacing: 1px;
+	font-family: 'Lobster', cursive;
+}
+
+.text span {
+	width: 200px;
+	height: 3px;
+	background: #14c8a2;
+	transform: translate(-50%,-50%);
+	top:0%;
+	left: 50%;
+	position: absolute;
+}
+
+.text p {
+	font-size: 20px;
+	color: #fff;
+	line-height: 30px;
+	letter-spacing: 1px;
+	font-family: 'Righteous', cursive;
+}
+
+.text .btn {
+	width: 150px;
+	height: 50px;
+	border: none;
+	background: #14c8a2;
+	color: #fff;
+	transition: 0.5s all ease-out;
+	margin-top: 50px;
+	font-family: 'Righteous', cursive;
+}
+
+.btn:hover {
+	background: transparent;
+	border: 1px solid #14c8a2;
+	color: #14c8a2;
+	transition: 0.5s all ease-out;
+}

@@ -1,0 +1,36 @@
+.about-container {
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.about-title {
+  margin-top: 50px;
+  font-size: 36px;
+}
+
+.about-description {
+  margin-top: 20px;
+  line-height: 1.5;
+}
+
+.team-container {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 50px;
+}
+
+.team-member {
+  text-align: center;
+}
+
+.member-name {
+  margin-top: 10px;
+  font-size: 24px;
+}
+
+.member-role {
+  margin-top: 10px;
+  font-size: 18px;
+  color: #777;
+}
